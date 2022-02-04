@@ -6,10 +6,10 @@
 
 body {
     background: #f5f7fa;
-    padding-top: 40px;
+    /* padding-top: 40px;
     padding-bottom: 40px;
     padding-right: 20px;
-    padding-left: 20px;
+    padding-left: 20px; */
     font-family: Montserrat;
 }
 
@@ -24,21 +24,21 @@ body {
 .sidebar {
     background: #1e2939;
     width: 370px;
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
 .my-photo {
     width: 220px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .about-me-container {
-    padding: 50px;
+    padding: 20px;
 }
 
 .contacts-container {
-    margin-top: 60px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -48,12 +48,15 @@ body {
     margin-top: 10px;
 }
 
-.contacts-title {
-    font-size: 22px;
+.contacts-title,
+.tech-skills-title,
+.soft-skils-title,
+.language-skils-title {
+    font-size: 18px;
     font-weight: 700;
-    line-height: 24px;
-    color: #ffffff;
-    margin-bottom: 20px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
 }
 
 .contacts-link {
@@ -61,7 +64,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -69,27 +72,9 @@ body {
     color:rgb(255, 153, 0);
 }
 
-.contacts-link-type {
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-    color: #ffffff;
-    margin-right: 10px;
-}
-
 .phone, .linkedin,
 .github, .envelope {
     margin-right: 10px;
-}
-
-.tech-skills-title,
-.soft-skils-title,
-.language-skils-title {
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 24px;
-    color: #ffffff;
-    margin-bottom: 20px;
 }
 
 .tech-skills-container,
@@ -97,7 +82,7 @@ body {
 .language-skils-container {
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 55px;
+    margin-top: 10px;
 }
 
 .tech-skills-item,
@@ -107,13 +92,13 @@ body {
     font-weight: 400;
     line-height: 24px;
     margin-left: 15px;
-    color: #ff6b08;
+    color: #000000;
 }
 
 .tech-skills-text,
 .soft-skils-text,
 .language-skils-text {
-    color: #ffffff;
+    color: #000000;
 }
 
 .profesion {
@@ -124,9 +109,10 @@ body {
 }
 
 .name {
-    font-size: 45px;
+    font-size: 26px;
     font-weight: 700;
-    line-height: 89px;
+    line-height: 26px;
+    margin-bottom: 10px;
 }
 
 .description {
@@ -136,46 +122,30 @@ body {
 }
 
 .container + .container {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .about-me-title {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 18px;
     margin-bottom: 10px;
 }
 
 .projects-link {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 20px;
-    color: #595959;
+    line-height: 18px;
+    color: #000000;
 }
 
 .projects-link:hover {
-    color: rgb(38, 5, 185);
-}
-
-.tech-name {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #595959;
-}
-
-.dots {
-    color: #bebebe;
-    font-weight: 100; 
+    color: rgb(185, 107, 5);
 }
 
 .projects-item {
     font-weight: 700;
     margin-left: 17px;
-}
-
-.projects-container {
-    margin-bottom: 55px;
 }
 
 .projects-items {
@@ -187,10 +157,14 @@ body {
 }
 
 .project-title {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Montserrat;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
+}
+
+.project-link {
+    padding-left: 20px;
 }
 
 .info-project {
@@ -198,19 +172,19 @@ body {
     font-size: 14px;
     font-weight: 600;
     line-height: 14px;
-    color: #ff6b08;
+    color: #000000;
 }
 
 .profession-title {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     margin-top: 10px;
 }
 
 .profession-compani {
-    color: #ff6b08;
+    color: #000000;
 }
 
 .proffesion-time {
@@ -226,14 +200,14 @@ body {
 
 .education-title {
     color: #000000;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 700;
-    line-height: 24px;
-    margin-bottom: 23px;
+    line-height: 20px;
+    margin-bottom: 10px;
 }
 
 .name-university {
-    color: #ff6b08;
+    color: rgb(0, 0, 0);
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -250,7 +224,7 @@ body {
 
 .education-container + 
 .education-container {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .education-time {
