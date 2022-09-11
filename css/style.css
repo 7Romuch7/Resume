@@ -22,7 +22,7 @@ body {
 }
 
 .sidebar {
-    background: #1e2939;
+    background: #38356d;
     width: 370px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -55,7 +55,7 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 20px;
-    color: #000000;
+    color: #396CF2;
     margin-bottom: 10px;
 }
 
@@ -119,6 +119,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    color: #1E2971;
 }
 
 .container + .container {
@@ -191,7 +192,7 @@ body {
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
-    color: #a8a8a8;
+    color: #1E2971;
 }
 
 .profession-divider {
@@ -228,7 +229,7 @@ body {
 }
 
 .education-time {
-    color: #a8a8a8;
+    color: #1E2971;
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
