@@ -64,7 +64,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    color: #000000;
+    color: #e1b803;
     text-decoration: none;
 }
 
@@ -92,13 +92,13 @@ body {
     font-weight: 400;
     line-height: 24px;
     margin-left: 15px;
-    color: #000000;
+    color: #e1b803;
 }
 
 .tech-skills-text,
 .soft-skils-text,
 .language-skils-text {
-    color: #000000;
+    color: #e1b803;
 }
 
 .profesion {
